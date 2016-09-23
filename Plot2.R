@@ -26,5 +26,5 @@ plot(dmy_hms(paste(dataset$Date,dataset$Time)),
      ylab="Global Active Power (kilowatts)", xlab="")
 
 # copy to png device file and closure
-dev.copy(device=png, "plot2.png")
+dev.copy(device=png, "plot2.png", width=480, height=480)
 dev.off()

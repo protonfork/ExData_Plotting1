@@ -36,5 +36,5 @@ legend("topright",col=c("Black", "Red", "Blue"), lwd=1, cex=0.7,
        legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
 
 # copy to png device file and closure
-dev.copy(device=png, "plot3.png")
+dev.copy(device=png, "plot3.png", width=480, height=480)
 dev.off()

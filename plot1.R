@@ -25,7 +25,7 @@ hist(as.numeric(as.character(dataset$Global_active_power)), col="Red",
      main="Global Active Power", xlab="Global Active Power (kilowatts)")
 
 # copy to png device file and closure
-dev.copy(device=png, "plot1.png")
+dev.copy(device=png, "plot1.png", width=480, height=480)
 dev.off()
 
 

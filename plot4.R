@@ -60,5 +60,5 @@ plot(dmy_hms(paste(dataset$Date,dataset$Time)),
      ylab="Global_reactive_power", xlab="datetime")
 
 # copy to png device file and closure
-dev.copy(device=png, "plot4.png")
+dev.copy(device=png, "plot4.png", width=480, height=480)
 dev.off()
